@@ -1,0 +1,373 @@
+* {
+  font-family: fira sans condensed;
+}
+body {
+  margin: 0;
+}
+.top {
+  background-image: url(/assets/1702474694-chas-academy-hero-homepage.jpg);
+  background-size: cover;
+  height: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  color: white;
+  font-size: 1.5rem;
+  height: 35px;
+  align-items: center;
+}
+.topLogo {
+  height: 75px;
+  width: 75px;
+}
+
+nav a {
+  margin: 10px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.navButton {
+  text-transform: uppercase;
+  color: white;
+  background-color: #4c64ff;
+  font-weight: bold;
+  padding: 10px 15px 10px 15px;
+  border-radius: 25px;
+  border: none;
+}
+.navButton:hover {
+  color: #4c64ff;
+  background-color: white;
+  border: 1px solid #4c64ff;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  height: 600px;
+}
+h1 {
+  font-family: fira sans condensed;
+  font-size: 50px;
+  text-transform: uppercase;
+  max-width: 670px;
+  padding: 0px;
+}
+.heroText {
+  font-size: 18px;
+  text-transform: uppercase;
+  max-width: 264px;
+}
+.chasAcademy {
+  background-color: #f8f9f9;
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.chasImg {
+  height: 400px;
+  width: auto;
+}
+.chasInfo {
+  width: 500px;
+}
+.chasInfo1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.chasInfo2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.chasInfo3 {
+  font-size: 20px;
+}
+.chasInfoButtons {
+  margin-top: 30px;
+}
+.infoButton1 {
+  background-color: black;
+  color: #f8f9f9;
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.infoButton1:hover {
+  background-color: #f8f9f9;
+  color: black;
+  border: 2px solid black;
+}
+.infoButton2 {
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+.infoButton2:hover {
+  background-color: black;
+  color: white;
+}
+.programSection {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.programInfo {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 70px;
+}
+.programSmallHeadline {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.programBigHeadline {
+  font-size: 40px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+.programParagraf {
+  width: 70%;
+  margin-bottom: 40px;
+}
+.bold {
+  font-weight: bold;
+}
+.programs {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  gap: 20px;
+}
+.programLinks {
+  width: 500px;
+  height: 90px;
+  background-color: #f8f9f9;
+  color: black;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+}
+.programIcons {
+  height: 70px;
+  width: auto;
+}
+.programReadMore {
+  background-color: black;
+  color: white;
+  width: 300px;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.recommendationSection {
+  background-color: #f8f9f9;
+  width: 100%;
+  height: 1450px;
+  display: flex;
+  justify-content: center;
+}
+.recommendationHeadlineBox {
+  height: 100px;
+  margin: 30px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.studentRecBoxes {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+}
+.recBox {
+  width: 350px;
+  height: 500px;
+  padding: 20px;
+  margin: 20px;
+}
+.recPara {
+  font-weight: normal;
+}
+.applySection {
+  background-color: #4c64ff;
+  color: white;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.applyInfo {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.applySmall {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-left: 60px;
+  padding-top: 50px;
+}
+.applyBig {
+  text-transform: uppercase;
+  font-size: 50px;
+  padding-left: 60px;
+  padding-top: 10px;
+}
+.applyPara {
+  padding-left: 60px;
+}
+.applyButtons {
+  display: flex;
+  justify-content: left;
+  margin-left: 60px;
+}
+.howApply {
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  background-color: #4c64ff;
+  color: white;
+  margin: 20px;
+}
+.howApply:hover {
+  background-color: white;
+  color: #4c64ff;
+}
+.directApply {
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  text-transform: uppercase;
+  background-color: white;
+  color: #4c64ff;
+  margin: 20px;
+}
+.directApply:hover {
+  background-color: #4c64ff;
+  color: white;
+  border: 1px solid white;
+}
+.applyImg {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.applyImage {
+  width: 450px;
+  background-color: #4c64ff;
+}
+footer {
+  background-color: #f8f9f9;
+  height: 410px;
+  width: 100%;
+  display: flex;
+  align-items: bottom;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 100px;
+}
+.footerImage {
+  background-image: url(/assets/footerbackground.webp);
+  background-repeat: no-repeat;
+  height: 520px;
+  width: 550px;
+  margin-top: -67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerHeadline {
+  font-size: 35px;
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 30px;
+  text-align: center;
+}
+.footerHeadlineBox {
+  width: 400px;
+}
+.footerButton {
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 25px;
+  width: 150px;
+  background-color: inherit;
+  color: black;
+  border: 1px solid black;
+}
+.footerButton:hover {
+  background-color: black;
+  color: white;
+}
+.list {
+  width: 300px;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+  font-size: 20px;
+}
+.contact {
+  width: 300px;
+  height: 400px;
+  margin-top: 30px;
+}
+.contactText {
+  font-weight: normal;
+  font-size: 20px;
+}
+.canvas {
+  height: 150px;
+  width: 150px;
+}
+.canvasButton {
+  padding: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-top: 70px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: #f8f9f9;
+}
+.end {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chasIconBlue {
+  width: 150px;
+  margin-top: 30px;
+}
