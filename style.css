@@ -40,7 +40,7 @@ nav a {
 }
 .navButton:hover {
   color: #4c64ff;
-  background-color: white;
+  background-color: inherit;
   border: 1px solid #4c64ff;
 }
 .hero {
